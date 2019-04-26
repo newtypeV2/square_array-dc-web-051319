@@ -1,6 +1,8 @@
 def square_array(array)
   # your code here
-  array.each do |pos|
-    pos=
+  arrayHolder = []
+  array.each do |number|
+    arrayHolder.push(number*number)
   end
+  arrayHolder
 end
